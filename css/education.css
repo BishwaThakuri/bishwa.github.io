@@ -1,0 +1,125 @@
+#education-area {
+    background-color: #313741;
+    color: #fff;
+}
+
+.educaton-content {
+    margin-top: 130px;
+    position: relative;
+}
+
+.educaton-content::before {
+    border: 2px solid #74bee7;
+    border-radius: 50%;
+    color: #74bee7;
+    content: "\f19d";
+    font-family: fontawesome;
+    font-size: 25px;
+    height: 70px;
+    left: 50%;
+    line-height: 65px;
+    position: absolute;
+    text-align: center;
+    top: -70px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 70px;
+}
+
+.educaton-content .cd-timeline {
+    margin: 0;
+    padding: 100px 0;
+}
+
+.educaton-content .cd-timeline::before {
+    background-color: #74bee7;
+}
+
+.educaton-content .cd-timeline::after {
+    background-color: #74bee7;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    height: 20px;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 20px;
+}
+
+.educaton-content .cd-timeline-block {
+    margin: 0 0 150px;
+}
+
+.educaton-content .cd-timeline-block:last-child {
+    margin: 0;
+}
+
+.educaton-content .cd-timeline-img {
+    background-color: #313741;
+    border: 2px solid #74bee7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 35px;
+    margin-left: -17.5px;
+    top: 25px;
+    width: 35px;
+    z-index: 1;
+}
+
+.educaton-content .cd-timeline-img span.dot {
+    background-color: #74bee7;
+    border-radius: 50%;
+    display: block;
+    height: 10px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 10px;
+}
+
+.educaton-content .cd-timeline-content {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px 0 0;
+    text-align: right;
+}
+
+.educaton-content .cd-timeline-content::before {
+    display: none;
+}
+
+.educaton-content .cd-timeline-block:nth-child(2n) .cd-timeline-content {
+    text-align: left;
+}
+
+.educaton-content .cd-timeline-content h2 {
+    color: #74bee7;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.educaton-content .cd-timeline-content p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.educaton-content .cd-timeline-content p span {
+    font-weight: 600;
+}
+
+.educaton-content .cd-description {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    opacity: 1;
+    padding: 0;
+    text-align: left;
+}
