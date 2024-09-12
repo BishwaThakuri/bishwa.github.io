@@ -1,828 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Bishwa Thakuri Portfolio" />
-        <meta name="author" content="Bishwa Thakuri" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>Bishwa Thakuri</title>
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/logo/favicon.png" type="image/x-icon" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-            rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/button.css" />
-        <link rel="stylesheet" type="text/css" href="css/my_intrest.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    </head>
-    <body style="background-color: #39637b;">
-        <div id="preloader">
-            <div data-img-url="img/ping-pong-loader.gif"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the portfolio of a skilled Full-Stack Developer specializing in PHP (Laravel), Python, JavaScript, React, HTML, CSS, and GitHub. Experienced in building robust websites, APIs, and implementing AI and Machine Learning solutions. Discover projects, skills, and services offered by an enthusiastic developer passionate about coding and innovation.">
+    <meta name="keywords" content="Full-Stack Developer, Web Developer, PHP Developer, Laravel, Python Developer, JavaScript, React Developer, HTML, CSS, GitHub, Portfolio, AI and Machine Learning, Software Developer, Frontend Development, Backend Development, Web Design, Coding, Programming, Toronto Developer">
+    <title>Bishwa Thakuri - Portfolio</title>
+
+    <!-- Site Favicon -->
+    <link rel="icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+
+    <!-- Css All Plugins Files -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
+    <link rel="stylesheet" href="assets/css/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/aos.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="bix-loader">
+        <span class="loader"></span>
+        <img src="assets/img/logo/logo.png" alt="logo">
+    </div>
+
+    <!-- Header -->
+    <header class="bix-static">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg bix-navbar">
+                        <!-- Header Logo Start -->
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="logo" class="bix-logo">
+                            <img src="assets/img/logo/logo-dark.png" alt="logo" class="dark-logo">
+                        </a>
+                        <!-- Header Logo End -->
+                        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="ri-menu-2-line"></i>
+                        </button>
+                        <div class="bix-main-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav bix-menu" id="top-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#bixexperience">Resume</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
+    </header>
 
-        <div class="wrap" data-magic-cursor="show">
-            <div class="modalbox">
-                <div class="box_inner">
-                    <div class="close">
-                        <a href="#"><img class="svg" src="img/svg/cancel.svg" alt="" /></a>
-                    </div>
-                    <div class="description_wrap"></div>
-                </div>
+    <!-- Mobile-menu -->
+    <div class="bix-sidebar-overlay"></div>
+    <div id="in_mobile_menu" class="bix-side-cart bix-mobile-menu">
+        <div class="bix-menu-title">
+            <div class="menu-title">
+                <h4>Menu</h4>
             </div>
-
-            <div class="topbar" data-position="absolute">
-                <div class="container">
-                    <div class="topbar_inner">
-                        <div class="logo">
-                            <a href="#"><img src="img/logo/three-triangle-logo.png" alt="" /></a>
-                        </div>
-                        <div class="right">
-                            <div class="social">
-                                <ul>
-                                    <li class="me-2">
-                                        <a href="https://www.facebook.com/bishwa.thakuri" target="_blank"><img src="img/icons/facebook.png" alt="Facebook" width="30px"></a>
-                                    </li>
-                                    <li class="me-2">
-                                        <a href="https://instagram.com/bishwa_thakuri?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/icons/instagram.png" alt="Instagram" width="30px"></a>
-                                    </li>
-                                    <li class="me-2">
-                                        <a href="https://www.linkedin.com/in/bishwa-thakuri-37b32b19a/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkedin" width="30px"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <button type="button" class="bix-close">×</button>
+        </div>
+        <div class="bix-menu-inner">
+            <div class="bix-menu-content">
+                <ul class="bix-menu mobile-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bixexperience">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </div>
 
-            <div class="hero">
-                <div class="background_shape"></div>
-                <div class="hero_content">
-                    <div class="container">
-                        <div class="content_inner">
-                            <div class="main_info">
-                                <div class="left">
-                                    <span class="subtitle">I'm</span>
-                                    <h3 class="name">Bishwa Thakuri</h3>
-                                    <p class="text">A passionate Full Stack Developer based in Kathmandu, Nepal</p>
-                                </div>
-                                <div class="right">
-                                    <div class="image mt-5 mb-5">
-                                        <img src="img/hero.jpg" alt="My Picture" data-tilt/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="main_menu">
-                                <ul>
-                                    <li>
-                                        <img class="svg" src="img/svg/archive.png" alt="" />
-                                        <span>About Me</span>
-                                        <a class="iknow_tm_full_link" href="#about"></a>
-                                    </li>
-                                    <li>
-                                        <img class="svg" src="img/svg/contacts.png" alt="" />
-                                        <span>Resume</span>
-                                        <a class="iknow_tm_full_link" href="#resume"></a>
-                                    </li>
-                                    <li>
-                                        <img class="svg" src="img/svg/briefcase.png" alt="" />
-                                        <span>Portfolio</span>
-                                        <a class="iknow_tm_full_link" href="#portfolio"></a>
-                                    </li>
-                                    <li>
-                                        <img class="svg" src="img/svg/gear.png" alt="" />
-                                        <span>Service</span>
-                                        <a class="iknow_tm_full_link" href="#service"></a>
-                                    </li>
-                                    <li>
-                                        <img class="svg" src="img/svg/writing.png" alt="" />
-                                        <span>Blog</span>
-                                        <a class="iknow_tm_full_link" href="#news"></a>
-                                    </li>
-                                    <li>
-                                        <img class="svg" src="img/svg/letter.png" alt="" />
-                                        <span>Contact</span>
-                                        <a class="iknow_tm_full_link" href="#contact"></a>
-                                    </li>
-                                </ul>
-                            </div>
+    <!-- Hero -->
+    <section class="section-hero padding-t-100 padding-b-50" id="home">
+        <div class="first-name">Bishwa</div>
+        <div class="last-name">Thakuri</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="bix-hero-img" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                        <div class="hero-inner-img">
+                            <img src="assets/img/old/hero.png" alt="hero" data-offset="30" class="hero-parallax">
                         </div>
                     </div>
                 </div>
-
-                <div class="simple_shapes">
-                    <span class="one anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="two anim_moveLeft"><img class="svg" src="img/svg/shapes/dot.svg" alt="" /></span>
-                    <span class="three anim_moveTop"><img class="svg" src="img/svg/shapes/dot-2.svg" alt="" /></span>
-                    <span class="four anim_circle"><img class="svg" src="img/svg/shapes/1.svg" alt="" /></span>
-                    <span class="five anim_circle"><img class="svg" src="img/svg/shapes/8.svg" alt="" /></span>
-                    <span class="six anim_circle"><img class="svg" src="img/svg/shapes/3.svg" alt="" /></span>
-                    <span class="seven anim_right"><img class="svg" src="img/svg/shapes/4.svg" alt="" /></span>
-                    <span class="eight anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="nine anim_circle"><img class="svg" src="img/svg/shapes/3.svg" alt="" /></span>
-                    <span class="ten anim_moveLeft"><img class="svg" src="img/svg/shapes/4.svg" alt="" /></span>
-                    <span class="eleven anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="twelve anim_extra"><img class="svg" src="img/svg/shapes/2.svg" alt="" /></span>
-                    <span class="thirteen anim_circle"><img class="svg" src="img/svg/shapes/5.svg" alt="" /></span>
-                    <span class="fourteen anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="fifteen anim_circle"><img class="svg" src="img/svg/shapes/3.svg" alt="" /></span>
-                    <span class="sixteen anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="seventeen anim_circle"><img class="svg" src="img/svg/shapes/5.svg" alt="" /></span>
-                    <span class="eighteen anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="nineteen anim_scale"><img class="svg" src="img/svg/shapes/9.svg" alt="" /></span>
-                    <span class="twenty anim_circle"><img class="svg" src="img/svg/shapes/1.svg" alt="" /></span>
+                <div class="col-lg-6 col-12">
+                    <div class="bix-hero-contact">
+                        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">Hi, 👋 I am</h4>
+                        <h1 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">Bishwa Thakuri</h1>
+                        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">I am a
+                            <span>Web Developer</span>
+                        </p>
+                        <div class="bix-buttons" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="900">
+                            <a href="assets/img/Resume - Bishwa Thakuri.pdf" target="_blank">
+                                <button type="button" class="bix-button">Download CV</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="container">
-                <div class="mainpart">
-                    <div id="about" class="main_section">
-                        <div class="about">
-                            <div class="left">
-                                <div class="left_inner">
-                                    <div class="image">
-                                        <img src="img/hero1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/hero1.jpg"></div>
-                                    </div>
-                                    <div class="details">
-                                        <ul>
-                                            <li>
-                                                <h3>Name</h3>
-                                                <span>Bishwa Thakuri</span>
-                                            </li>
-                                            <li>
-                                                <h3>Birthday</h3>
-                                                <span>Spetember 18, 2000</span>
-                                            </li>
-                                            <li>
-                                                <h3>Mail</h3>
-                                                <span>
-                                                    bishwa.thakuri1320@gmail.com
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <h3>Phone</h3>
-                                                <span>+977 9805779089</span>
-                                            </li>
-                                            <li>
-                                                <h3>Address</h3>
-                                                <span>New Baneshwor, Kathmandu, Nepal</span>
-                                            </li>
-                                            <li>
-                                                <h3>Nationality</h3>
-                                                <span>Nepali</span>
-                                            </li>
-                                        </ul>
-                                    </div>
+    <!-- About -->
+    <section class="section-about padding-tb-50" id="about">
+        <div class="container">
+            <div class="row mb-minus-30">
+                <div class="col-12">
+                    <div class="bix-banner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <h4>About <span>Me</span></h4>
+                    </div>
+                    <div class="bix-banner-line" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                        <span class="inner-border"></span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 order-xl-1 order-md-2 mb-30" data-aos="fade-up" data-aos-duration="2000"
+                    data-aos-delay="400">
+                    <div class="bix-about-contact">
+                        <h5>“Coding is the language of the future.”</h5>
+                        <p>Passionate full-stack developer with a strong background in creating robust websites and APIs. 
+                            I thrive on solving complex problems and continuously learning new technologies to improve my 
+                            skills. My expertise lies in PHP (Laravel) and Python, with a keen interest in AI and Machine 
+                            Learning.</p>
+                        <div class="about-name">
+                            <h6>Full-Stack Developer</h6>
+                            <p>Bishwa Thakuri</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-12 order-xl-2 order-md-1 mb-30" data-aos="fade-up" data-aos-duration="2000"
+                    data-aos-delay="600">
+                    <div class="bix-about-img">
+                        <img src="assets/img/old/hero1.jpg" alt="about">
+                        <div class="bix-rounded-circle">
+                            <a href=javascript:void(0)>
+                                <svg viewBox="0 0 100 100" width="100" height="100">
+                                    <defs>
+                                        <path id="circle" d=" M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath xlink:href="#circle">About Me&nbsp; - About Me &nbsp;-&nbsp;About Me
+                                            &nbsp;-
+                                        </textPath>
+                                    </text>
+                                </svg>
+                                <div class="inner-contact">
+                                    <i class="ri-arrow-right-up-line"></i>
                                 </div>
-                            </div>
-                            <div class="right mb-4">
-                                <div class="main_title">
-                                    <span>About Me</span>
-                                    <h3>A Passionate Full Stack Developer</h3>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        Hi! My name is Bishwa Thakuri. 
-                                        I am Creative Full Stack Developer, and I'm very passionate and dedicated to my work. 
-                                        In the rapidly changing field of information technology, I am a young, creative guy looking for 
-                                        difficult projects and an incredible portfolio.
-                                        I am driven individual who believes that by providing my consumers with quality items, I can help 
-                                        them in the long run.
-                                    </p>
-                                </div>
-
-                                <section id="interest-area" class="section-padding">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <div class="section-title main_title">
-                                                <h3>My interests</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="row justify-content-center">
-                                        <!--Single My Interest Start-->
-                                        <div class="col-lg-4 col-sm-6 text-center">
-                                            <div class="interest-item wow fadeInUp mb-4">
-                                                <div class="interest-item-content text-center">
-                                                    <img class="svg" src="img/interest/table-tennis-equipment.png" alt="" />
-                                                    <p class="text-bold text-center">Table Tennis</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Single My Interest End-->
-                                
-                                        <!--Single My Interest Start-->
-                                        <div class="col-lg-4 col-sm-6 text-center">
-                                            <div class="interest-item wow fadeInDown mb-4">
-                                                <div class="interest-item-content">
-                                                    <img class="svg" src="img/interest/coffee-cup.png" alt="" />
-                                                    <p class="text-bold text-center">Coffee</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Single My Interest End-->
-                                
-                                        <!--Single My Interest Start-->
-                                        <div class="col-lg-4 col-sm-6 text-center">
-                                            <div class="interest-item wow fadeInUp mb-4">
-                                                <div class="interest-item-content">
-                                                    <img class="svg" src="img/interest/musical-note.png" alt="" />
-                                                    <p class="text-bold text-center">Music</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Single My Interest End-->
-                                
-                                        <!--Single My Interest Start-->
-                                        <div class="col-lg-4 col-sm-6 text-center">
-                                            <div class="interest-item wow fadeInDown mb-4">
-                                                <div class="interest-item-content">
-                                                    <img class="svg" src="img/interest/hiking.png" alt="" />
-                                                    <p class="text-bold text-center">Hiking</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Single My Interest End-->
-                                
-                                        <!--Single My Interest Start-->
-                                        <div class="col-lg-4 col-sm-6 text-center">
-                                            <div class="interest-item wow fadeInUp mb-4">
-                                                <div class="interest-item-content">
-                                                    <img class="svg" src="img/interest/photography.png" alt="" />
-                                                    <p class="text-bold text-center">Photography</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Single My Interest End-->
-
-                                        <!--Single My Interest Start-->
-                                        <div class="col-lg-4 col-sm-6 text-center">
-                                            <div class="interest-item wow fadeInUp mb-4">
-                                                <div class="interest-item-content">
-                                                    <img class="svg" src="img/interest/programmer.png" alt="" />
-                                                    <p class="text-bold text-center">Coding</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Single My Interest End-->
-                                    </div>
-                                </section>
-                                
-
-                                <a href="img/cv/CV.pdf" class="cta ms-4" target="_blank">
-                                    <span>Download CV</span>
+                            </a>
+                        </div>
+                        <div class="inner-item">
+                            <a class="box-inner" href="www.linkedin.com/in/bishwa-thakuri">
+                                <img src="assets/img/about/item-1.png" alt="Linkedin">
+                            </a>
+                            <a class="box-inner" href="https://github.com/BishwaThakuri">
+                                <img src="assets/img/about/item-2.png" alt="GitHub">
+                            </a>
+                            <a class="box-inner" href="https://www.facebook.com/bishwa.thakuri">
+                                <img src="assets/img/about/facebook-logo.png" alt="Facebook">
+                            </a>
+                            <a class="box-inner" href="https://www.instagram.com/bishwa_thakuri/">
+                                <img src="assets/img/about/instagram-logo.png" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 order-xl-3 order-md-3 mb-30">
+                    <div class="bix-skill" id="progress">
+                        <div class="skill-inner-box bg-color-one" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                            <div class="skill-logo">
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/logo-1.png" alt="HTML Logo">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/css_logo.png" alt="CSS Logo">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/js-logo.png" alt="JavaScript Logo">
                                 </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <div id="resume" class="main_section">
-                        <div class="resume">
-                            <div class="main_title text-center">
-                                <span>Resume</span>
-                                <h3>Combination of Skill &amp; Experience</h3>
-                            </div>
-                            <div class="resume_inner">
-                                <div class="left">
-                                    <div class="info_list">
-                                        <div class="resume_title">
-                                            <h3><img class="me-2" src="img/education.png" alt="Education" width="60px"> Education</h3>
-                                        </div>
-                                        <ul>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>Bachelors of Science in Information Technology (BSc. IT)</h3>
-                                                            <span>The British College, Kathmandu, Nepal</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>2019 - 2022</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>Indian Certificate of Secondary Education (ICSE)</h3>
-                                                            <span>Touch Wood School, Dehradun, India</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>2016 - 2018</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>School Leaving Certificate (SLC)</h3>
-                                                            <span>Gyan Batika Bording School, Mahendranagar, Nepal</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>till 2016</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="info_list">
-                                        <div class="resume_title">
-                                            <h3><img class="me-2" src="img/experience.png" alt="Education" width="60px"> Experience</h3>
-                                        </div>
-                                        <ul>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>Progress Intern</h3>
-                                                            <span>Javra Software Nepal Pvt. Ltd</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>June 2021 - Sept 2021</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Obtained traning on software engineering practice and ethics. Obtained training on backend API design and Web 
-                                                            programming on the Progress 4GL stack.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>Backend Bootcamp</h3>
-                                                            <span>Proshore Nepal Pvt. Ltd</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>March 2022 - May 2022</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Obtained traning on backend API design and Web programming on PHP (Laravel)</p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>Junior Full Stack Developer</h3>
-                                                            <span>Feat International Pvt. Ltd</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>July 2022 - December 2022</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Developing Full Stack website of the different client. Updating the database 
-                                                            and making changes to the CMS of the website</p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="short">
-                                                        <div class="job">
-                                                            <h3>Junior Full Stack Developer</h3>
-                                                            <span>F1Soft International Pvt. Ltd</span>
-                                                        </div>
-                                                        <div class="year">
-                                                            <span>December 2022 - Present</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Developing Full Stack website of the different client. Updating the database 
-                                                            and making changes to the CMS of the website</p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="right">
-                                    <div class="skills_list">
-                                        <div class="resume_title">
-                                            <h3><img class="me-2" src="img/skills.png" alt="Education" width="60px"> Personal Skills</h3>
-                                        </div>
-                                        <div class="personal">
-                                            <div class="dodo_progress">
-                                                <div class="progress_inner" data-value="85">
-                                                    <span><span class="label">Time Management</span><span class="number">85%</span></span>
-                                                    <div class="background">
-                                                        <div class="bar"><div class="bar_in"></div></div>
-                                                    </div>
-                                                </div>
-                                                <div class="progress_inner" data-value="70">
-                                                    <span><span class="label">Effeciency</span><span class="number">70%</span></span>
-                                                    <div class="background">
-                                                        <div class="bar"><div class="bar_in"></div></div>
-                                                    </div>
-                                                </div>
-                                                <div class="progress_inner" data-value="80">
-                                                    <span><span class="label">Intigrity</span><span class="number">80%</span></span>
-                                                    <div class="background">
-                                                        <div class="bar"><div class="bar_in"></div></div>
-                                                    </div>
-                                                </div>
-                                                <div class="progress_inner" data-value="90">
-                                                    <span><span class="label">Team Player</span><span class="number">90%</span></span>
-                                                    <div class="background">
-                                                        <div class="bar"><div class="bar_in"></div></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="skills_list">
-                                        <div class="resume_title">
-                                            <h3><img class="me-2" src="img/coding.png" alt="Education" width="60px"> Programming Skills</h3>
-                                        </div>
-                                        <div class="software">
-                                            <div class="circular_progress_bar">
-                                                <ul>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/html-5.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>HTML</h3></div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/css-3.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>CSS</h3></div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/php.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>Php</h3></div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/laravel.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>Laravel</h3></div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/python.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>Python</h3></div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/java.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>Java</h3></div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <img src="img/skills/js.png" alt="HTML" width="120px">
-                                                            <div class="title"><h3>Javascript</h3></div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="skill-contact justify-content-center">
+                                <div class="skill-box-contact">
+                                    <h4>Frontend Development <span>(HTML, CSS, JavaScript)</span></h4>
+                                    <p>Expert in building responsive, dynamic user interfaces.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div id="portfolio" class="main_section">
-                        <div class="portfolio">
-                            <div class="main_title">
-                                <span>Resume</span>
-                                <h3>My works that I did for clients</h3>
+                        
+                        <div class="skill-inner-box bg-color-two" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                            <div class="skill-logo">
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/php-logo.png" alt="PHP Logo">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/laravel-logo.png" alt="Laravel Logo">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/python-logo.png" alt="Python Logo">
+                                </a>
                             </div>
-                            <div class="portfolio_list">
-                                <div class="row mt-4">
-                                    <div class="col-lg-6 mb-3">
-                                        <div class="card">
-                                            <div class="card-body shadow">
-                                                <img src="img/portfolio/featinternational.png" alt="Feat International">
-                                                <p class="mt-4">
-                                                    <strong>Name of Project:</strong> FEAT International - Website Development <br>
-                                                    <strong>Year:</strong> 2022 <br>
-                                                    <strong>Workstation:</strong> FEAT International Pvt. Ltd.<br>
-                                                    <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
-                                                    <strong>Tools Used:</strong> Laravel PHP Framework, jQuery, Bootstrap, etc.<br>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 mb-3">
-                                        <div class="card">
-                                            <div class="card-body shadow">
-                                                <img src="img/portfolio/foneloan.png" alt="Feat International">
-                                                <p class="mt-4">
-                                                    <strong>Name of Project:</strong> Foneloan - Website Development <br>
-                                                    <strong>Year:</strong> 2022 <br>
-                                                    <strong>Workstation:</strong> Foneloan Pvt. Ltd.<br>
-                                                    <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
-                                                    <strong>Tools Used:</strong> Laravel PHP Framework, jQuery, Bootstrap, etc.<br>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 mb-3">
-                                        <div class="card">
-                                            <div class="card-body shadow">
-                                                <img src="img/portfolio/f1soft.png" alt="Feat International">
-                                                <p class="mt-4">
-                                                    <strong>Name of Project:</strong> F1soft International - Website Development <br>
-                                                    <strong>Year:</strong> 2023 <br>
-                                                    <strong>Workstation:</strong> F1Soft INternational Pvt. Ltd.<br>
-                                                    <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
-                                                    <strong>Tools Used:</strong> React, jQuery, Bootstrap, etc.<br>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 mb-3">
-                                        <div class="card">
-                                            <div class="card-body shadow">
-                                                <img src="img/portfolio/emt.png" alt="Feat International">
-                                                <p class="mt-4">
-                                                    <strong>Name of Project:</strong> eSewa Money Transfer - Website Development <br>
-                                                    <strong>Year:</strong> 2023 <br>
-                                                    <strong>Workstation:</strong> eSewa Money Transfer Pvt. Ltd.<br>
-                                                    <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
-                                                    <strong>Tools Used:</strong> Laravel PHP Framework, jQuery, Bootstrap, etc.<br>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="skill-contact justify-content-center">
+                                <div class="skill-box-contact">
+                                    <h4>Backend Development <span>(PHP, Laravel, Python)</span></h4>
+                                    <p>Proficient in developing robust backend systems and APIs.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div id="service" class="main_section">
-                        <div class="services">
-                            <div class="main_title">
-                                <span>Service</span>
-                                <h3>Never compromise with quality</h3>
+                        
+                        <div class="skill-inner-box bg-color-three" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
+                            <div class="skill-logo">
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/github-logo.png" alt="GitHub Logo">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/about/git-logo.png" alt="Git Logo">
+                                </a>
                             </div>
-                            <div class="service_list">
-                                <ul class="justify-content-center">
-                                    <li>
-                                        <div class="list_inner">
-                                            <span class="icon"><img class="svg" src="img/service/ux.png" alt="" /></span>
-                                            <h3 class="title">Frontend Development</h3>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="list_inner">
-                                            <span class="icon"><img class="svg" src="img/service/backend.png" alt="" /></span>
-                                            <h3 class="title">Backend Development</h3>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="list_inner">
-                                            <span class="icon"><img class="svg" src="img/service/api.png" alt="" /></span>
-                                            <h3 class="title">API Development</h3>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="list_inner">
-                                            <span class="icon"><img class="svg" src="img/service/full-stack.png" alt="" /></span>
-                                            <h3 class="title">Full Stack Development</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="news" class="main_section">
-                        <div class="news">
-                            <div class="main_title">
-                                <span>Blog</span>
-                            </div>
-                            <div class="news_list">
-                                <ul>
-                                    <li>
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img src="img/banner.jpg" alt="" />
-                                                <div class="main" data-img-url="img/banner.jpg"></div>
-                                                <a class="iknow_tm_full_link" href="#"></a>
-                                            </div>
-                                            <div class="details">
-                                                <span class="category"><a href="#">Sentiment Analysis</a></span>
-                                                <h3 class="title"><a href="#">Machine Learning and Sentiment Analysis: What is it, How does it work</a></h3>
-                                            </div>
-                                            <div class="hidden_content">
-                                                <div class="news_informations">
-                                                    <div class="text">
-                                                        <p>
-                                                            Sentiment analysis is one of the most common techniques used in text analytics. It is predominantly 
-                                                            used to extract the attitude or opinion about a person, place, thing, or event. Generally speaking, 
-                                                            sentiment analysis is the process of identifying and interpreting attitudes or sentiments towards something. 
-                                                            In this blog post, we will go through everything you need to know about machine learning and sentiment analysis.
-                                                        </p>
-                                                        <br>
-                                                        <h5>What is Machine Learning?</h5>
-                                                        <p>
-                                                            Machine learning is an artificial intelligence (AI) technique to understand and make predictions from data. It is a 
-                                                            subset of AI that uses algorithms to learn from data, find patterns, and make predictions, without being explicitly 
-                                                            programmed. Machine learning can be applied to a wide range of business problems, from marketing and sales to 
-                                                            operations and customer service. It uses techniques like predictive analytics and data mining to find patterns in 
-                                                            data and draw conclusions from data.
-                                                        </p>
-                                                        <br>
-                                                        <h5>How does Sentiment Analysis Work?</h5>
-                                                        <p>
-                                                            Sentiment analysis is one of the most commonly used text analytics techniques. It is predominantly used to extract 
-                                                            the attitude or opinion about a person, place, thing, or event. The sentiment analysis process consists of three 
-                                                            steps: <br> - Extraction: Processing the raw text data to find the key opinion-carrying units and extract the relevant 
-                                                            information. <br> - Modelling: Converting extracted information into a form that can be processed and modeled with 
-                                                            machine learning algorithms. <br> - Evaluation: Quantifying the sentiment score of the given text using machine 
-                                                            learning algorithms. <br> A sentiment analysis can either be applied to a single sentence or an entire document. 
-                                                            The most common sentiment analysis techniques are lexicon-based sentiment analysis, rule-based sentiment analysis, 
-                                                            and machine learning sentiment analysis. In lexicon-based sentiment analysis, sentiment words are identified and 
-                                                            counted within a document. Rule-based sentiment analysis leverages a set of if/then rules to identify the sentiment 
-                                                            of a text. Machine learning sentiment analysis has been used since the 2000s and is the most common technique today.
-                                                        </p>
-                                                        <br>
-                                                        <h5>Why use Machine Learning for Sentiment Analysis?</h5>
-                                                        <p>
-                                                            Machine learning algorithms have become particularly relevant for sentiment analysis in recent years. The most 
-                                                            common sentiment analysis techniques are lexicon-based sentiment analysis, rule-based sentiment analysis, and 
-                                                            machine learning sentiment analysis. Lexicon-based sentiment analysis mainly relies on manually compiled word lists 
-                                                            for sentiment. With an ever-evolving language and new words popping up every day, manual word lists are prone to 
-                                                            inaccuracies. Machine learning sentiment analysis is more robust to changes in language because it is trained on a 
-                                                            large set of data. Rule-based sentiment analysis is another approach to sentiment analysis, where the analyst specifies 
-                                                            a set of if/then rules to identify the sentiment of a text. On the other hand, machine learning sentiment analysis has 
-                                                            been used since the 2000s and is the most common technique today.
-                                                        </p>
-                                                        <br>
-                                                        <h5>Types of ML for Text Analytics</h5>
-                                                        <p>
-                                                            - Sentiment Analysis: Sentiment analysis is one of the most common techniques used in text analytics. It is predominantly 
-                                                            used to extract the attitude or opinion about a person, place, thing, or event. <br> - Concept Analysis: Concept analysis 
-                                                            is the process of identifying concepts, their relationships, and the relevance of terms within a given text. <br> 
-                                                            - Visualization: Visualization is the process of creating visual representations of textual data to make the information 
-                                                            easier to understand and digest. <br> - Sentiment Analysis: Sentiment analysis is one of the most common techniques used 
-                                                            in text analytics. It is predominantly used to extract the attitude or opinion about a person, place, thing, or event. 
-                                                            A sentiment analysis can either be applied to a single sentence or an entire document. <br> - Concept Analysis: Concept 
-                                                            analysis is the process of identifying concepts, their relationships, and the relevance of terms within a given text. 
-                                                            A concept analysis can either be applied to a single sentence or an entire document. <br> - Visualization: Visualization 
-                                                            is the process of creating visual representations of textual data to make the information easier to understand and digest. 
-                                                            A visualization can either be applied to a single sentence or an entire document.
-                                                        </p>
-                                                        <br>
-                                                        <h5>Limitations of Machine Learning in Sentiment Analysis</h5>
-                                                        <p>
-                                                            Machine learning techniques are robust to changes in language, but they require training data. If you have a new product 
-                                                            or service and don’t have a lot of data, you can use a pretrained model for sentiment analysis. However, if you have a 
-                                                            lot of data, it’s better to build your own model. The data you select for training the machine learning model will 
-                                                            greatly influence the quality of the model. This means that you need to carefully select your training data to avoid 
-                                                            including any biased data. If you use real-life texts in your training data, there is a high risk that your machine 
-                                                            learning model will be biased. The sentiment might be different if you use training data that is not real-life. This 
-                                                            is because real-life data might include a lot of noise and unwanted information. For example, the sentiment might be 
-                                                            different if you use a sample of tweets in your training data. Using fake data or synthetic data can help you avoid 
-                                                            bias in your machine learning model.
-                                                        </p>
-                                                        <br>
-                                                        <h5>Conclusion</h5>
-                                                        <p>
-                                                            Sentiment analysis is one of the most common techniques used in text analytics. It is predominantly used to extract 
-                                                            the attitude or opinion about a person, place, thing, or event. Machine learning algorithms have become particularly 
-                                                            relevant for sentiment analysis in recent years. The most common sentiment analysis techniques are lexicon-based 
-                                                            sentiment analysis, rule-based sentiment analysis, and machine learning sentiment analysis. The data you select for 
-                                                            training the machine learning model will greatly influence the quality of the model. This means that you need to 
-                                                            carefully select your training data to avoid including any biased data. If you use real-life texts in your training 
-                                                            data, there is a high risk that your machine learning model will be biased. Fake data can be used to avoid this.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="contact" class="main_section">
-                        <div class="contact">
-                            <div class="main_title">
-                                <span>Contact Me</span>
-                                <h3>Contact me to get your work done</h3>
-                            </div>
-                            <div class="wrapper">
-                                <div class="left">
-                                    <ul>
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-lg-6">
-                                                        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_wmsbdykq.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <div class="short mt-3">
-                                                            <h3>Call Me</h3>
-                                                            <span>+977 9805779089</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-lg-6">
-                                                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_5wr08scz.json"  background="transparent"  speed="1"  style="width: 130px; height: 130px;"  loop  autoplay></lottie-player>
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <div class="short">
-                                                            <h3>Email Us</h3>
-                                                            <span>
-                                                                bishwa.thakuri1320@gmail.com
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-lg-6">
-                                                        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_v3WrCt.json"  background="transparent"  speed="1"  style="width: 130px; height: 130px;"  loop  autoplay></lottie-player>
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <div class="short">
-                                                            <h3>Address</h3>
-                                                            <span>Buddhanagar, New Baneshwor, Kathmandu, Nepal</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                            <div class="skill-contact justify-content-center">
+                                <div class="skill-box-contact">
+                                    <h4>Version Control <span>(Git, GitHub)</span></h4>
+                                    <p>Experienced in version control using Git and GitHub.</p>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
-
-            <div class="copyright hidden">
-                <div class="container">
-                    <div class="inner">
-                        <div class="left">
-                            <p>Designed with love &copy; <a href="#" target="_blank">Bishwa Thakuri</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mouse-cursor cursor-outer"></div>
-            <div class="mouse-cursor cursor-inner"></div>
         </div>
+    </section>
 
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/init.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-        <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <script>
-            $('.js-tilt').tilt({
-                scale: 1.1
-            })
-        </script>
-    </body>
+    <!-- Achievement -->
+    <section class="section-achievement padding-tb-50" id="bixexperience">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bix-banner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <h4>My <span>Resume</span></h4>
+                    </div>
+                    <div class="bix-banner-line" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                        <span class="inner-border"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Work Experience Section -->
+                    <div class="col-lg-6">
+                        <h2 class="section-title">Work Experience</h2>
+                        <div class="timeline">
+                            <!-- Experience 1 -->
+                            <div class="timeline-item">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-content">
+                                    <h5 class="job-title">Junior Full Stack Developer</h5>
+                                    <p class="company">F1Soft International Pvt. Ltd. (Dec 2022 - Apr 2024)</p>
+                                    <p class="description">Worked on building and maintaining web applications using PHP (Laravel) and React.</p>
+                                </div>
+                            </div>
+                            <!-- Experience 2 -->
+                            <div class="timeline-item">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-content">
+                                    <h5 class="job-title">Junior Full Stack Developer</h5>
+                                    <p class="company">Feat International Pvt. Ltd. (Jul 2022 - Dec 2022)</p>
+                                    <p class="description">Developed dynamic websites and APIs, focusing on both frontend and backend technologies.</p>
+                                </div>
+                            </div>
+                            <!-- Experience 3 -->
+                            <div class="timeline-item">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-content">
+                                    <h5 class="job-title">Progress Developer Intern</h5>
+                                    <p class="company">Javra Software (Jun 2021 - Sep 2021)</p>
+                                    <p class="description">Assisted in developing business applications using Progress programming language.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Education Section -->
+                    <div class="col-lg-6">
+                        <h2 class="section-title">Education</h2>
+                        <div class="timeline">
+                            <!-- Education 1 -->
+                            <div class="timeline-item">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-content">
+                                    <h5 class="degree">AI & ML</h5>
+                                    <p class="institution">Lambton College, Toronto, Canda (2024-2026)</p>
+                                    <p class="description">Currently pursuing advanced studies in Artificial Intelligence and Machine Learning.</p>
+                                </div>
+                            </div>
+                            <!-- Education 2 -->
+                            <div class="timeline-item">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-content">
+                                    <h5 class="degree">B.Sc. in Computing</h5>
+                                    <p class="institution">The British College, Kathmandu, Nepal (2019 - 2022)</p>
+                                    <p class="description">Completed a Bachelor's degree focused on web development and data analysis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section-services padding-tb-50" id="services">
+        <div class="container">
+            <div class="row mb-minus-24">
+                <div class="col-xl-3 col-md-6 col-12 mb-24" data-aos="fade-up" data-aos-duration="2000"
+                    data-aos-delay="200">
+                    <div class="bix-services bg-services-one">
+                        <div class="services-image">
+                            <div class="inner-image">
+                                <span class="ring"></span>
+                                <img src="assets/img/old/api.png" alt="services">
+                            </div>
+                        </div>
+                        <div class="services-contact">
+                            <h5>API Development</h5>
+                            <p>Build secure and scalable APIs to connect your applications and enhance functionality seamlessly.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-12 mb-24" data-aos="fade-up" data-aos-duration="2000"
+                    data-aos-delay="400">
+                    <div class="bix-services bg-services-two">
+                        <div class="services-image">
+                            <div class="inner-image">
+                                <span class="ring"></span>
+                                <img src="assets/img/old/ux.png" alt="services">
+                            </div>
+                        </div>
+                        <div class="services-contact">
+                            <h5>Frontend Development</h5>
+                            <p>Crafting engaging, user-friendly interfaces with cutting-edge technologies like HTML, CSS, JavaScript, and React.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-12 mb-24" data-aos="fade-up" data-aos-duration="2000"
+                    data-aos-delay="600">
+                    <div class="bix-services bg-services-three">
+                        <div class="services-image">
+                            <div class="inner-image">
+                                <span class="ring"></span>
+                                <img src="assets/img/old/backend.png" alt="services">
+                            </div>
+                        </div>
+                        <div class="services-contact">
+                            <h5>Backend Development</h5>
+                            <p>Create powerful, secure, and efficient server-side solutions with PHP (Laravel) and Python to drive your applications.</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-12 mb-24" data-aos="fade-up" data-aos-duration="2000"
+                    data-aos-delay="800">
+                    <div class="bix-services bg-services-four">
+                        <div class="services-image">
+                            <div class="inner-image">
+                                <span class="ring"></span>
+                                <img src="assets/img/old/full-stack.png" alt="services">
+                            </div>
+                        </div>
+                        <div class="services-contact">
+                            <h5>Full-Stack Development</h5>
+                            <p>Deliver end-to-end solutions with expertise in both frontend and backend technologies, building complete and dynamic web applications.</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section-projects padding-tb-50" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bix-banner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <h4>Featured <span>Projects</span></h4>
+                    </div>
+                    <div class="bix-banner-line" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                        <span class="inner-border"></span>
+                    </div>
+                </div>
+                <div class="col-lg-12 projects-content">
+                    <div class="item-grid" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                        <div class="row mb-minus-24">
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/featinternational.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>FEAT International - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2022 <br>
+                                            <strong>Workstation:</strong> FEAT International Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/foneloan.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>Foneloan - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2022 <br>
+                                            <strong>Workstation:</strong> FEAT International Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/emt.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>eSewa Money Transfer - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2022 <br>
+                                            <strong>Workstation:</strong> FEAT International Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/f1soft.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>F1Soft Internation - Website Maintenance</h5>
+                                        <span>React, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2023 <br>
+                                            <strong>Workstation:</strong> F1Soft Internation Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/emt-complain-portal.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>EMT Complain Portal - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2023 <br>
+                                            <strong>Workstation:</strong> F1Soft Internation Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/jumjum.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>JumJum - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2024 <br>
+                                            <strong>Workstation:</strong> F1Soft Internation Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/fonepoints.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>Fonepoints - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2024 <br>
+                                            <strong>Workstation:</strong> F1Soft Internation Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/fonemoney.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>Fonemoney - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2024 <br>
+                                            <strong>Workstation:</strong> F1Soft Internation Pvt. Ltd.<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-md-6 col-12 mb-5 item web graphics applications">
+                                <div class="bix-project-card">
+                                    <div class="project-image">
+                                        <img class="shadow" src="assets/img/portfolio/renewme.png" alt="project-1">
+                                    </div>
+                                    <div class="project-contact">
+                                        <h5>RenewMe - Website Development</h5>
+                                        <span> Laravel PHP Framework, jQuery, Bootstrap, etc.</span>
+                                        <p>
+                                            <strong>Year:</strong> 2023 <br>
+                                            <strong>Workstation:</strong> Freelance<br>
+                                            <strong>Positions Held:</strong> Junior Full Stack Web Developer<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="section-contact py-5" id="contact">
+        <div class="container">
+            <div class="bix-banner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                <h4>Contact <span>Me</span></h4>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center">
+                        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_wmsbdykq.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+                        <p>+1 647-5539089</p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center">
+                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_5wr08scz.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+                        <p>bishwa.thakuri1320@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center">
+                        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_v3WrCt.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+                        <p>Toronto, ON, Canada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bix-footer-contact justify-content-center">
+                        <p>&copy; <span id="copyright_year"></span> <a href="javascript:void(0)">BishwaThakuri</a>, All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tab to top -->
+    <a href="#Top" class="back-to-top result-placeholder">
+        <i class="ri-arrow-up-line"></i>
+        <div class="back-to-top-wrap active-progress">
+            <svg viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+            </svg>
+        </div>
+    </a>
+
+    <!-- Plugins -->
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery.fancybox.min.js"></script>
+    <script src="assets/js/vendor/jquery.mixitup.min.js"></script>
+    <script src="assets/js/vendor/owl.carousel.min.js"></script>
+    <script src="assets/js/vendor/parallax.min.js"></script>
+    <script src="assets/js/vendor/aos.js"></script>
+    <script src="assets/js/vendor/smoothscroll.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
